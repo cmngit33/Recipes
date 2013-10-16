@@ -1,0 +1,184 @@
+/* Recipes Style Sheet
+Author: Constance Neuber
+Date: September 12, 2013
+
+Filename: recipe.css
+Supporting Files: recipes.html, Cheesegrits.jpg,
+cheffette2.jpg, potatosalad.jpg, texascaviar.jpg
+*/
+
+
+/* Body Style */
+body {
+    display: block;
+    font-family: Trebuchet, sans-serif;
+    font-size: 100%;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0;
+    overflow: scroll;
+}
+
+
+/* h1 Style — All American Recipes */
+
+h1 {
+    Font-size: 10px;
+    text-align: left;
+    font-family: Trebuchet, sans-serif;
+    color: blue;
+}
+
+    
+/* h2 Style — Recipe Name */
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-variant: normal;
+    color: blue;    
+}
+
+    
+/* Image of Cheffette */
+
+.header img {
+    display: block;
+    margin-left: 0em;
+    width: 100%;
+    border: none;
+}
+
+
+/* Images of Food */
+
+body img {
+    display: block;
+    margin: 0 auto 0 auto;
+    border-color: red;
+    border-width: 8px;
+    border-style: dotted;
+}
+
+
+/* h3 Style — Table of Contents*/
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    font-variant: small-caps;
+    color: red;    
+} 
+
+
+/* UL Style — Ingredients */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    line-height: 150%;
+}
+        
+.quantity {
+    position: relative;
+    display: inline-block;
+    color: green;
+    text-align: right;
+    width: 30%;
+    }
+
+.ingredient {
+    position: absolute;
+    display: inline-block;
+    color: green;
+    padding-left: 4px;
+    margin-left: 1%;
+}
+
+
+/* Body Text Paragraph */
+
+p { 
+    color: green;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+
+/* Servings or Makes */
+
+p.servings {
+    font-weight:600;
+    font-style: italic;
+}
+.top {
+    padding:20px;
+}
+
+
+/* OL Style - Table of Contents */
+
+ol {
+    list-style-type: none;
+    text-align: left;
+    line-height:40px;
+    margin:0;
+    padding-left:40px;
+}    
+li {
+  color: red;  
+}
+
+
+/* OL Style - Table of Contents: Adding White Space After */
+
+ol:after {
+    content: "\00a0";
+}
+ 
+
+/* Link Colors */
+
+a:link {
+    color:red;
+}
+a:visited {
+    color:blue;
+}
+a:hover {
+    z-index:-1;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.3;
+    -khtml-opacity:0.3;
+    opacity:0.3;
+    color: red;
+}
+
+
+/* Horizontal Rules */
+/* hr {
+    width: span;
+    height: 10px;
+    background-color: yellow;
+    display: block;
+    margin-bottom: 50px;
+} */
+
+.horzrule {
+    min-height: 1px;
+    clear:both; 
+    width:100%;
+    border-bottom:10px solid yellow;
+    height:1px; padding-top:5px;
+    margin-top:5px;
+    margin-bottom:50px;
+}
